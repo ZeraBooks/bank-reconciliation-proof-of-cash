@@ -1,0 +1,68 @@
+{
+  "account": "Redline Freight Co, Prairie Trust Bank checking ...2256",
+  "period_end": "2026-08-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "101994.94",
+  "deposits_in_transit": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "4179.62"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-08-16",
+      "ref": "8828",
+      "description": "Check 8828 Riverbend Printing",
+      "amount": "-8022.03"
+    },
+    {
+      "date": "2026-08-19",
+      "ref": "8830",
+      "description": "Check 8830 Ortiz Plumbing",
+      "amount": "-7193.65"
+    },
+    {
+      "date": "2026-08-25",
+      "ref": "8831",
+      "description": "Check 8831 Valley Propane Co",
+      "amount": "-3219.33"
+    }
+  ],
+  "adjusted_bank_balance": "87739.55",
+  "book_closing": "102962.06",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-86.16"
+    },
+    {
+      "type": "interest",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "24.77"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-08-14",
+      "ref": "",
+      "description": "Customer check returned unpaid (Ach Credit Customer)",
+      "amount": "-15149.12"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-08-14",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    }
+  ],
+  "adjusted_book_balance": "87739.55",
+  "difference": "0.00"
+}

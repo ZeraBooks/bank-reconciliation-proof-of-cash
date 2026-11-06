@@ -1,0 +1,48 @@
+{
+  "account": "Tan & Ruiz Law Group, Northfield National Bank operating ...9014",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "bank_opening": "76001.33",
+  "bank_closing": "107806.94",
+  "book_opening": "58768.19",
+  "book_closing": "108782.07",
+  "opening_outstanding": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "2554.13"
+    },
+    {
+      "date": "2026-08-25",
+      "ref": "7040",
+      "description": "Check 7040 Greenleaf Janitorial",
+      "amount": "-4064.29"
+    },
+    {
+      "date": "2026-08-20",
+      "ref": "7041",
+      "description": "Check 7041 Main Street Properties LLC",
+      "amount": "-3165.05"
+    },
+    {
+      "date": "2026-08-27",
+      "ref": "7042",
+      "description": "Check 7042 Hartwell Insurance Agency",
+      "amount": "-4286.32"
+    },
+    {
+      "date": "2026-08-20",
+      "ref": "7044",
+      "description": "Check 7044 Sysco Foods",
+      "amount": "-4656.51"
+    },
+    {
+      "date": "2026-08-15",
+      "ref": "7047",
+      "description": "Check 7047 County Treasurer",
+      "amount": "-3615.10"
+    }
+  ],
+  "fictional": true
+}

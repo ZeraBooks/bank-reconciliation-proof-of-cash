@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bank-reconciliation-proof-of-cash/schema/statement.schema.json",
+  "title": "Month header for a reconciliation",
+  "type": "object",
+  "required": ["account", "period_start", "period_end", "bank_opening", "bank_closing", "book_opening", "book_closing", "opening_outstanding"],
+  "properties": {
+    "account": {"type": "string"},
+    "period_start": {"type": "string", "format": "date"},
+    "period_end": {"type": "string", "format": "date"},
+    "bank_opening": {"type": "string"}, "bank_closing": {"type": "string"},
+    "book_opening": {"type": "string", "description": "Last month's adjusted book balance."},
+    "book_closing": {"type": "string", "description": "Before this month's reconciliation adjustments."},
+    "opening_outstanding": {"type": "array", "description": "Last month's deposits in transit and outstanding payments.", "items": {"type": "object"}},
+    "fictional": {"const": true}
+  }
+}

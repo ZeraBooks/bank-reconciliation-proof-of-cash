@@ -1,0 +1,30 @@
+{
+  "account": "St. Brendan Parish Food Pantry, Harbor Point Savings Bank checking ...6603",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "bank_opening": "9120.18",
+  "bank_closing": "5384.61",
+  "book_opening": "9133.05",
+  "book_closing": "8326.97",
+  "opening_outstanding": [
+    {
+      "date": "2026-06-26",
+      "ref": "610",
+      "description": "Check 610 Ortiz Plumbing",
+      "amount": "-741.23"
+    },
+    {
+      "date": "2026-06-29",
+      "ref": "611",
+      "description": "Check 611 Grainger",
+      "amount": "-665.64"
+    },
+    {
+      "date": "2026-06-30",
+      "ref": "",
+      "description": "Deposit",
+      "amount": "1419.74"
+    }
+  ],
+  "fictional": true
+}

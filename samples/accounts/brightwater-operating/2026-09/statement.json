@@ -1,0 +1,42 @@
+{
+  "account": "Brightwater Landscaping Inc, Northfield National Bank checking ...7718",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "bank_opening": "24235.00",
+  "bank_closing": "55181.46",
+  "book_opening": "22279.90",
+  "book_closing": "49679.52",
+  "opening_outstanding": [
+    {
+      "date": "2026-08-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1355.04"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "3903.58"
+    },
+    {
+      "date": "2026-08-23",
+      "ref": "3313",
+      "description": "Check 3313 Valley Propane Co",
+      "amount": "-228.51"
+    },
+    {
+      "date": "2026-08-26",
+      "ref": "3314",
+      "description": "Check 3314 Riverbend Printing",
+      "amount": "-3070.60"
+    },
+    {
+      "date": "2026-08-16",
+      "ref": "3315",
+      "description": "Check 3315 County Treasurer",
+      "amount": "-3914.61"
+    }
+  ],
+  "fictional": true
+}

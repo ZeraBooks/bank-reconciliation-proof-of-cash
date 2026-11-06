@@ -1,0 +1,36 @@
+{
+  "account": "Okafor Family Dental PC, Cedar Valley Credit Union checking ...0932",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-31",
+  "bank_opening": "87611.70",
+  "bank_closing": "116728.21",
+  "book_opening": "87130.67",
+  "book_closing": "110743.64",
+  "opening_outstanding": [
+    {
+      "date": "2026-05-18",
+      "ref": "5203",
+      "description": "Check 5203 A. Petrovic refund",
+      "amount": "-185.00"
+    },
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "5447.05"
+    },
+    {
+      "date": "2026-07-17",
+      "ref": "5213",
+      "description": "Check 5213 Riverbend Printing",
+      "amount": "-1215.70"
+    },
+    {
+      "date": "2026-07-27",
+      "ref": "5216",
+      "description": "Check 5216 Riverbend Printing",
+      "amount": "-4527.38"
+    }
+  ],
+  "fictional": true
+}

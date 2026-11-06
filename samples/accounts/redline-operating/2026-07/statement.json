@@ -1,0 +1,30 @@
+{
+  "account": "Redline Freight Co, Prairie Trust Bank checking ...2256",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "bank_opening": "33905.40",
+  "bank_closing": "61935.86",
+  "book_opening": "29418.91",
+  "book_closing": "75077.58",
+  "opening_outstanding": [
+    {
+      "date": "2026-06-26",
+      "ref": "8817",
+      "description": "Check 8817 Hartwell Insurance Agency",
+      "amount": "-6481.30"
+    },
+    {
+      "date": "2026-06-29",
+      "ref": "8818",
+      "description": "Check 8818 Ortiz Plumbing",
+      "amount": "-2025.18"
+    },
+    {
+      "date": "2026-06-30",
+      "ref": "",
+      "description": "Deposit",
+      "amount": "4019.99"
+    }
+  ],
+  "fictional": true
+}

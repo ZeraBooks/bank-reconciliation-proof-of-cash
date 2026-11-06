@@ -1,0 +1,81 @@
+{
+  "account": "Juniper Lane Bakery LLC, Harbor Point Savings Bank checking ...4471",
+  "period_end": "2026-08-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "36799.05",
+  "deposits_in_transit": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "2324.77"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1346.46"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-08-18",
+      "ref": "1056",
+      "description": "Check 1056 Ortiz Plumbing",
+      "amount": "-2423.68"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "1057",
+      "description": "Check 1057 Riverbend Printing",
+      "amount": "-2465.65"
+    },
+    {
+      "date": "2026-08-24",
+      "ref": "1060",
+      "description": "Check 1060 Valley Propane Co",
+      "amount": "-286.91"
+    }
+  ],
+  "adjusted_bank_balance": "35294.04",
+  "book_closing": "40785.68",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-29.39"
+    },
+    {
+      "type": "interest",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "13.90"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-08-20",
+      "ref": "",
+      "description": "Customer check returned unpaid (Ach Credit Customer)",
+      "amount": "-5464.15"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-08-20",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    },
+    {
+      "type": "other",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Reconciliation discrepancy",
+      "amount": "37.15"
+    }
+  ],
+  "adjusted_book_balance": "35294.04",
+  "difference": "0.00"
+}

@@ -1,0 +1,62 @@
+{
+  "account": "Redline Freight Co, Prairie Trust Bank checking ...2256",
+  "period_end": "2026-07-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "61935.86",
+  "deposits_in_transit": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "7197.76"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-07-28",
+      "ref": "8819",
+      "description": "Check 8819 Riverbend Printing",
+      "amount": "-3737.83"
+    },
+    {
+      "date": "2026-07-11",
+      "ref": "8820",
+      "description": "Check 8820 Riverbend Printing",
+      "amount": "-2334.84"
+    }
+  ],
+  "adjusted_bank_balance": "63060.95",
+  "book_closing": "75077.58",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-37.91"
+    },
+    {
+      "type": "interest",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "13.56"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-07-12",
+      "ref": "",
+      "description": "Customer check returned unpaid (Ach Credit Customer)",
+      "amount": "-11980.28"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-07-12",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    }
+  ],
+  "adjusted_book_balance": "63060.95",
+  "difference": "0.00"
+}

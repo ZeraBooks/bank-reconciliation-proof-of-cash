@@ -1,0 +1,66 @@
+{
+  "account": "St. Brendan Parish Food Pantry, Harbor Point Savings Bank checking ...6603",
+  "period_end": "2026-08-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "12182.27",
+  "deposits_in_transit": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "251.17"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "966.66"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-08-29",
+      "ref": "617",
+      "description": "Check 617 Pioneer Equipment Rental",
+      "amount": "-405.86"
+    },
+    {
+      "date": "2026-08-16",
+      "ref": "620",
+      "description": "Check 620 Hartwell Insurance Agency",
+      "amount": "-814.54"
+    },
+    {
+      "date": "2026-08-30",
+      "ref": "621",
+      "description": "Check 621 Sysco Foods",
+      "amount": "-123.93"
+    },
+    {
+      "date": "2026-08-19",
+      "ref": "622",
+      "description": "Check 622 County Treasurer",
+      "amount": "-907.12"
+    }
+  ],
+  "adjusted_bank_balance": "11148.65",
+  "book_closing": "11154.00",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-7.50"
+    },
+    {
+      "type": "interest",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "2.15"
+    }
+  ],
+  "adjusted_book_balance": "11148.65",
+  "difference": "0.00"
+}

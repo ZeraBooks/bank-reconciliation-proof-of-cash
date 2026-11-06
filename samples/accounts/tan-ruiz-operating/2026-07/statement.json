@@ -1,0 +1,30 @@
+{
+  "account": "Tan & Ruiz Law Group, Northfield National Bank operating ...9014",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "bank_opening": "57300.00",
+  "bank_closing": "68258.99",
+  "book_opening": "56784.41",
+  "book_closing": "69797.58",
+  "opening_outstanding": [
+    {
+      "date": "2026-06-26",
+      "ref": "7032",
+      "description": "Check 7032 Grainger",
+      "amount": "-1872.63"
+    },
+    {
+      "date": "2026-06-29",
+      "ref": "7033",
+      "description": "Check 7033 County Treasurer",
+      "amount": "-738.47"
+    },
+    {
+      "date": "2026-06-30",
+      "ref": "",
+      "description": "Deposit",
+      "amount": "2095.51"
+    }
+  ],
+  "fictional": true
+}

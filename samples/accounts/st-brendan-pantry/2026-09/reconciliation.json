@@ -1,0 +1,54 @@
+{
+  "account": "St. Brendan Parish Food Pantry, Harbor Point Savings Bank checking ...6603",
+  "period_end": "2026-09-30",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "31775.64",
+  "deposits_in_transit": [
+    {
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1317.32"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-09-27",
+      "ref": "623",
+      "description": "Check 623 Greenleaf Janitorial",
+      "amount": "-1089.98"
+    },
+    {
+      "date": "2026-09-18",
+      "ref": "625",
+      "description": "Check 625 Hartwell Insurance Agency",
+      "amount": "-821.86"
+    },
+    {
+      "date": "2026-09-13",
+      "ref": "627",
+      "description": "Check 627 Ortiz Plumbing",
+      "amount": "-85.33"
+    }
+  ],
+  "adjusted_bank_balance": "31095.79",
+  "book_closing": "31098.82",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-7.90"
+    },
+    {
+      "type": "interest",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "4.87"
+    }
+  ],
+  "adjusted_book_balance": "31095.79",
+  "difference": "0.00"
+}

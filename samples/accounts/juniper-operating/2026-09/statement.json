@@ -1,0 +1,42 @@
+{
+  "account": "Juniper Lane Bakery LLC, Harbor Point Savings Bank checking ...4471",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "bank_opening": "36799.05",
+  "bank_closing": "61654.42",
+  "book_opening": "35294.04",
+  "book_closing": "58820.67",
+  "opening_outstanding": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "2324.77"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1346.46"
+    },
+    {
+      "date": "2026-08-18",
+      "ref": "1056",
+      "description": "Check 1056 Ortiz Plumbing",
+      "amount": "-2423.68"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "1057",
+      "description": "Check 1057 Riverbend Printing",
+      "amount": "-2465.65"
+    },
+    {
+      "date": "2026-08-24",
+      "ref": "1060",
+      "description": "Check 1060 Valley Propane Co",
+      "amount": "-286.91"
+    }
+  ],
+  "fictional": true
+}

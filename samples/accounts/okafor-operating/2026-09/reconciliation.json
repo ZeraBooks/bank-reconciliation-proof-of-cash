@@ -1,0 +1,66 @@
+{
+  "account": "Okafor Family Dental PC, Cedar Valley Credit Union checking ...0932",
+  "period_end": "2026-09-30",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "159039.22",
+  "deposits_in_transit": [
+    {
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "6081.88"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-05-18",
+      "ref": "5203",
+      "description": "Check 5203 A. Petrovic refund",
+      "amount": "-185.00"
+    },
+    {
+      "date": "2026-09-29",
+      "ref": "5226",
+      "description": "Check 5226 County Treasurer",
+      "amount": "-5331.94"
+    },
+    {
+      "date": "2026-09-28",
+      "ref": "5227",
+      "description": "Check 5227 Riverbend Printing",
+      "amount": "-5750.60"
+    },
+    {
+      "date": "2026-09-12",
+      "ref": "5228",
+      "description": "Check 5228 Valley Propane Co",
+      "amount": "-2160.80"
+    },
+    {
+      "date": "2026-09-29",
+      "ref": "5230",
+      "description": "Check 5230 Pioneer Equipment Rental",
+      "amount": "-243.21"
+    }
+  ],
+  "adjusted_bank_balance": "151449.55",
+  "book_closing": "151460.30",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-57.44"
+    },
+    {
+      "type": "interest",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "46.69"
+    }
+  ],
+  "adjusted_book_balance": "151449.55",
+  "difference": "0.00"
+}

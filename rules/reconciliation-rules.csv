@@ -1,0 +1,12 @@
+rule_id,severity,rule,why_it_matters
+REC-001,error,"The month folder has statement.json, bank.csv, book.csv and reconciliation.json, and every row is dated inside the period.",A row from the next month changes both sides and hides a real difference.
+REC-002,error,Bank opening balance plus the bank rows equals the bank closing balance.,If the statement data doesn't tie on its own, nothing built on it can be trusted.
+REC-003,error,Book opening balance plus the book rows equals the book closing balance.,The same test for the general ledger's cash account.
+REC-004,error,"The outstanding payments listed are exactly the book payments the bank hasn't paid by period end, including ones carried from earlier months.",A check left off makes the bank side too high; a cleared check left on makes it too low.
+REC-005,error,The deposits in transit listed are exactly the book receipts the bank hasn't credited by period end.,Deposits in transit should clear in the first days of next month. If they don't they need a look.
+REC-006,error,"Every bank item with no book entry (fees, interest, returned checks) is in the book adjustments, and every adjustment has a bank item behind it, except corrections of book errors.",These are the entries the books still need. An adjustment with no bank item is a plug.
+REC-007,error,Adjusted bank balance equals adjusted book balance.,The reconciliation itself: bank closing + deposits in transit - outstanding payments = book closing + adjustments.
+REC-009,warning,No outstanding item is more than 90 days old.,"Stale checks need follow-up: void and reissue, or report as unclaimed property under state rules."
+REC-010,error,"Proof of cash, receipts column: bank receipts - beginning deposits in transit + ending deposits in transit = book receipts + receipt adjustments.",Catches receipts that net out across months in a balance-only reconciliation.
+REC-011,error,"Proof of cash, disbursements column: bank disbursements - beginning outstanding + ending outstanding = book disbursements + disbursement adjustments.",Catches a payment recorded in the wrong month or a check that cleared for a different amount.
+REC-012,error,"Proof of cash, beginning column: bank opening + beginning deposits in transit - beginning outstanding payments = book opening.",Last month's reconciliation has to carry into this one. A dropped prior item shows up here first.

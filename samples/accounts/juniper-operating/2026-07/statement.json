@@ -1,0 +1,30 @@
+{
+  "account": "Juniper Lane Bakery LLC, Harbor Point Savings Bank checking ...4471",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "bank_opening": "21840.55",
+  "bank_closing": "34761.81",
+  "book_opening": "21093.41",
+  "book_closing": "30820.54",
+  "opening_outstanding": [
+    {
+      "date": "2026-06-26",
+      "ref": "1043",
+      "description": "Check 1043 Sysco Foods",
+      "amount": "-637.42"
+    },
+    {
+      "date": "2026-06-29",
+      "ref": "1044",
+      "description": "Check 1044 Main Street Properties LLC",
+      "amount": "-1784.96"
+    },
+    {
+      "date": "2026-06-30",
+      "ref": "",
+      "description": "Deposit",
+      "amount": "1675.24"
+    }
+  ],
+  "fictional": true
+}

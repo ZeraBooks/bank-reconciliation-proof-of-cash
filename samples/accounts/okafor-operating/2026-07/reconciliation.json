@@ -1,0 +1,54 @@
+{
+  "account": "Okafor Family Dental PC, Cedar Valley Credit Union checking ...0932",
+  "period_end": "2026-07-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "87611.70",
+  "deposits_in_transit": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "5447.05"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-05-18",
+      "ref": "5203",
+      "description": "Check 5203 A. Petrovic refund",
+      "amount": "-185.00"
+    },
+    {
+      "date": "2026-07-17",
+      "ref": "5213",
+      "description": "Check 5213 Riverbend Printing",
+      "amount": "-1215.70"
+    },
+    {
+      "date": "2026-07-27",
+      "ref": "5216",
+      "description": "Check 5216 Riverbend Printing",
+      "amount": "-4527.38"
+    }
+  ],
+  "adjusted_bank_balance": "87130.67",
+  "book_closing": "87141.66",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-30.27"
+    },
+    {
+      "type": "interest",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "19.28"
+    }
+  ],
+  "adjusted_book_balance": "87130.67",
+  "difference": "0.00"
+}

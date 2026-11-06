@@ -1,0 +1,74 @@
+{
+  "account": "Juniper Lane Bakery LLC, Harbor Point Savings Bank checking ...4471",
+  "period_end": "2026-07-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "34761.81",
+  "deposits_in_transit": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "2101.75"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-07-26",
+      "ref": "1045",
+      "description": "Check 1045 Sysco Foods",
+      "amount": "-1140.27"
+    },
+    {
+      "date": "2026-07-23",
+      "ref": "1048",
+      "description": "Check 1048 Ortiz Plumbing",
+      "amount": "-2794.98"
+    },
+    {
+      "date": "2026-07-31",
+      "ref": "1049",
+      "description": "Check 1049 Ortiz Plumbing",
+      "amount": "-1799.46"
+    },
+    {
+      "date": "2026-07-22",
+      "ref": "1050",
+      "description": "Check 1050 Ortiz Plumbing",
+      "amount": "-2181.07"
+    }
+  ],
+  "adjusted_bank_balance": "28947.78",
+  "book_closing": "30820.54",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-12.42"
+    },
+    {
+      "type": "interest",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "8.74"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-07-18",
+      "ref": "",
+      "description": "Customer check returned unpaid (Mobile Check Deposit)",
+      "amount": "-1857.08"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-07-18",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    }
+  ],
+  "adjusted_book_balance": "28947.78",
+  "difference": "0.00"
+}

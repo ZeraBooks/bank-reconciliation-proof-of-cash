@@ -1,0 +1,17 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate samples and check nothing changed
+        run: |
+          python3 scripts/generate_samples.py
+          python3 scripts/build_manifest.py
+          git diff --exit-code
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v

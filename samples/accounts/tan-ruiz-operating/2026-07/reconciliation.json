@@ -1,0 +1,56 @@
+{
+  "account": "Tan & Ruiz Law Group, Northfield National Bank operating ...9014",
+  "period_end": "2026-07-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "68258.99",
+  "deposits_in_transit": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "3578.72"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-07-11",
+      "ref": "7038",
+      "description": "Check 7038 County Treasurer",
+      "amount": "-4962.55"
+    }
+  ],
+  "adjusted_bank_balance": "66875.16",
+  "book_closing": "69797.58",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-38.47"
+    },
+    {
+      "type": "interest",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "22.92"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-07-13",
+      "ref": "",
+      "description": "Customer check returned unpaid (Branch Deposit)",
+      "amount": "-2894.87"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-07-13",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    }
+  ],
+  "adjusted_book_balance": "66875.16",
+  "difference": "0.00"
+}

@@ -1,0 +1,68 @@
+{
+  "account": "Brightwater Landscaping Inc, Northfield National Bank checking ...7718",
+  "period_end": "2026-08-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "24235.00",
+  "deposits_in_transit": [
+    {
+      "date": "2026-08-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1355.04"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "3903.58"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-08-23",
+      "ref": "3313",
+      "description": "Check 3313 Valley Propane Co",
+      "amount": "-228.51"
+    },
+    {
+      "date": "2026-08-26",
+      "ref": "3314",
+      "description": "Check 3314 Riverbend Printing",
+      "amount": "-3070.60"
+    },
+    {
+      "date": "2026-08-16",
+      "ref": "3315",
+      "description": "Check 3315 County Treasurer",
+      "amount": "-3914.61"
+    }
+  ],
+  "adjusted_bank_balance": "22279.90",
+  "book_closing": "20522.31",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-46.70"
+    },
+    {
+      "type": "interest",
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "4.29"
+    },
+    {
+      "type": "book_error",
+      "book_ref": "3312",
+      "booked": "-3152.82",
+      "correct": "-1352.82",
+      "description": "Check 3312 entered as 3152.82, cleared for 1352.82",
+      "amount": "1800.00"
+    }
+  ],
+  "adjusted_book_balance": "22279.90",
+  "difference": "0.00"
+}

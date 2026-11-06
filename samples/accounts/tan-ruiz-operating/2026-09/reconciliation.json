@@ -1,0 +1,42 @@
+{
+  "account": "Tan & Ruiz Law Group, Northfield National Bank operating ...9014",
+  "period_end": "2026-09-30",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "107806.94",
+  "deposits_in_transit": [
+    {
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "3680.60"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-09-28",
+      "ref": "7051",
+      "description": "Check 7051 Ortiz Plumbing",
+      "amount": "-2729.86"
+    }
+  ],
+  "adjusted_bank_balance": "108757.68",
+  "book_closing": "108782.07",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-54.79"
+    },
+    {
+      "type": "interest",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "30.40"
+    }
+  ],
+  "adjusted_book_balance": "108757.68",
+  "difference": "0.00"
+}

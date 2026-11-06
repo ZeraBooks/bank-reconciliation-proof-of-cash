@@ -1,0 +1,49 @@
+{
+  "account": "St. Brendan Parish Food Pantry, Harbor Point Savings Bank checking ...6603",
+  "period_end": "2026-07-31",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "5384.61",
+  "deposits_in_transit": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1464.22"
+    }
+  ],
+  "outstanding_payments": [],
+  "adjusted_bank_balance": "6848.83",
+  "book_closing": "8326.97",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-15.52"
+    },
+    {
+      "type": "interest",
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "3.65"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-07-09",
+      "ref": "",
+      "description": "Customer check returned unpaid (Ach Credit Customer)",
+      "amount": "-1454.27"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-07-09",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    }
+  ],
+  "adjusted_book_balance": "6848.83",
+  "difference": "0.00"
+}

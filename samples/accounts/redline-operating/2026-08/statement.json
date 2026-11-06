@@ -1,0 +1,30 @@
+{
+  "account": "Redline Freight Co, Prairie Trust Bank checking ...2256",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-31",
+  "bank_opening": "61935.86",
+  "bank_closing": "101994.94",
+  "book_opening": "63060.95",
+  "book_closing": "102962.06",
+  "opening_outstanding": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "7197.76"
+    },
+    {
+      "date": "2026-07-28",
+      "ref": "8819",
+      "description": "Check 8819 Riverbend Printing",
+      "amount": "-3737.83"
+    },
+    {
+      "date": "2026-07-11",
+      "ref": "8820",
+      "description": "Check 8820 Riverbend Printing",
+      "amount": "-2334.84"
+    }
+  ],
+  "fictional": true
+}

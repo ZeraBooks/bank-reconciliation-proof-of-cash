@@ -1,0 +1,48 @@
+{
+  "account": "Juniper Lane Bakery LLC, Harbor Point Savings Bank checking ...4471",
+  "period_end": "2026-09-30",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "61654.42",
+  "deposits_in_transit": [
+    {
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "1651.03"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-09-27",
+      "ref": "1061",
+      "description": "Check 1061 Ortiz Plumbing",
+      "amount": "-2296.62"
+    },
+    {
+      "date": "2026-09-27",
+      "ref": "1066",
+      "description": "Check 1066 Riverbend Printing",
+      "amount": "-2189.23"
+    }
+  ],
+  "adjusted_bank_balance": "58819.60",
+  "book_closing": "58820.67",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-15.79"
+    },
+    {
+      "type": "interest",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "14.72"
+    }
+  ],
+  "adjusted_book_balance": "58819.60",
+  "difference": "0.00"
+}

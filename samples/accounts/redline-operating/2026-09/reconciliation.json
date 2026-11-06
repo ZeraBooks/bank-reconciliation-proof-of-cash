@@ -1,0 +1,56 @@
+{
+  "account": "Redline Freight Co, Prairie Trust Bank checking ...2256",
+  "period_end": "2026-09-30",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "123240.32",
+  "deposits_in_transit": [
+    {
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "4236.88"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-09-25",
+      "ref": "8836",
+      "description": "Check 8836 Hartwell Insurance Agency",
+      "amount": "-7020.58"
+    }
+  ],
+  "adjusted_bank_balance": "120456.62",
+  "book_closing": "130596.75",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-64.37"
+    },
+    {
+      "type": "interest",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "40.80"
+    },
+    {
+      "type": "returned_item",
+      "date": "2026-09-28",
+      "ref": "",
+      "description": "Customer check returned unpaid (Mobile Check Deposit)",
+      "amount": "-10104.56"
+    },
+    {
+      "type": "bank_fee",
+      "date": "2026-09-28",
+      "ref": "",
+      "description": "RETURNED ITEM FEE",
+      "amount": "-12.00"
+    }
+  ],
+  "adjusted_book_balance": "120456.62",
+  "difference": "0.00"
+}

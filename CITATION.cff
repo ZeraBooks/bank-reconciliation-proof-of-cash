@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Bank Reconciliation and Proof of Cash Spec"
+type: dataset
+authors:
+  - name: "Zera Books Inc. (ZeraBooks)"
+    website: "https://www.zerabooks.com"
+version: 1.0.0
+date-released: 2026-11-05
+url: "https://www.zerabooks.com/bank-reconciliation-software"
+repository-code: "https://github.com/ZeraBooks/bank-reconciliation-proof-of-cash"
+license: MIT
+abstract: "Spec, JSON Schema, fictional book and bank data and a Python tool that matches items, checks a bank reconciliation and builds the four-column proof of cash."
+keywords:
+  - bank-reconciliation
+  - proof-of-cash
+  - bookkeeping
+  - audit
+  - validator

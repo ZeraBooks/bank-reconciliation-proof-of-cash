@@ -1,0 +1,36 @@
+{
+  "account": "Redline Freight Co, Prairie Trust Bank checking ...2256",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "bank_opening": "101994.94",
+  "bank_closing": "123240.32",
+  "book_opening": "87739.55",
+  "book_closing": "130596.75",
+  "opening_outstanding": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "4179.62"
+    },
+    {
+      "date": "2026-08-16",
+      "ref": "8828",
+      "description": "Check 8828 Riverbend Printing",
+      "amount": "-8022.03"
+    },
+    {
+      "date": "2026-08-19",
+      "ref": "8830",
+      "description": "Check 8830 Ortiz Plumbing",
+      "amount": "-7193.65"
+    },
+    {
+      "date": "2026-08-25",
+      "ref": "8831",
+      "description": "Check 8831 Valley Propane Co",
+      "amount": "-3219.33"
+    }
+  ],
+  "fictional": true
+}

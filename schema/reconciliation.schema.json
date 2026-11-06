@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bank-reconciliation-proof-of-cash/schema/reconciliation.schema.json",
+  "title": "Bank reconciliation",
+  "description": "A month-end bank reconciliation for one account. Amounts are signed decimal strings: money in positive, money out negative. Adjusted bank balance = bank_closing + sum(deposits_in_transit) + sum(outstanding_payments). Adjusted book balance = book_closing + sum(book_adjustments). The two must be equal.",
+  "type": "object",
+  "required": ["account", "period_end", "bank_closing", "deposits_in_transit", "outstanding_payments", "adjusted_bank_balance", "book_closing", "book_adjustments", "adjusted_book_balance"],
+  "$defs": {
+    "money": {"type": "string", "pattern": "^-?[0-9]+\\.[0-9]{2}$"},
+    "item": {
+      "type": "object",
+      "required": ["date", "amount"],
+      "properties": {
+        "date": {"type": "string", "format": "date", "description": "Date in the books."},
+        "ref": {"type": "string", "description": "Check number when there is one."},
+        "description": {"type": "string"},
+        "amount": {"$ref": "#/$defs/money"}
+      }
+    }
+  },
+  "properties": {
+    "account": {"type": "string"},
+    "period_end": {"type": "string", "format": "date"},
+    "prepared_by": {"type": "string"},
+    "bank_closing": {"$ref": "#/$defs/money"},
+    "deposits_in_transit": {"type": "array", "items": {"$ref": "#/$defs/item"}},
+    "outstanding_payments": {"type": "array", "items": {"$ref": "#/$defs/item"}, "description": "Checks and other payments in the books that the bank hasn't paid yet. Negative amounts."},
+    "adjusted_bank_balance": {"$ref": "#/$defs/money"},
+    "book_closing": {"$ref": "#/$defs/money", "description": "Cash account balance in the general ledger before the adjustments below."},
+    "book_adjustments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "amount"],
+        "properties": {
+          "type": {"enum": ["bank_fee", "interest", "returned_item", "book_error", "other"]},
+          "date": {"type": "string", "format": "date"},
+          "ref": {"type": "string"},
+          "description": {"type": "string"},
+          "amount": {"$ref": "#/$defs/money"},
+          "book_ref": {"type": "string", "description": "book_error only: the reference of the wrong book entry."},
+          "booked": {"$ref": "#/$defs/money"},
+          "correct": {"$ref": "#/$defs/money"}
+        }
+      }
+    },
+    "adjusted_book_balance": {"$ref": "#/$defs/money"},
+    "difference": {"$ref": "#/$defs/money"}
+  }
+}

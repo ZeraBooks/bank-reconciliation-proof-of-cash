@@ -1,0 +1,66 @@
+{
+  "account": "Brightwater Landscaping Inc, Northfield National Bank checking ...7718",
+  "period_end": "2026-09-30",
+  "prepared_by": "Fictional preparer",
+  "bank_closing": "55181.46",
+  "deposits_in_transit": [
+    {
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "4489.26"
+    }
+  ],
+  "outstanding_payments": [
+    {
+      "date": "2026-09-21",
+      "ref": "3317",
+      "description": "Check 3317 Main Street Properties LLC",
+      "amount": "-3372.14"
+    },
+    {
+      "date": "2026-09-22",
+      "ref": "3318",
+      "description": "Check 3318 Riverbend Printing",
+      "amount": "-1546.20"
+    },
+    {
+      "date": "2026-09-25",
+      "ref": "3319",
+      "description": "Check 3319 Hartwell Insurance Agency",
+      "amount": "-1175.12"
+    },
+    {
+      "date": "2026-09-23",
+      "ref": "3320",
+      "description": "Check 3320 Sysco Foods",
+      "amount": "-3460.26"
+    },
+    {
+      "date": "2026-09-18",
+      "ref": "3322",
+      "description": "Check 3322 Grainger",
+      "amount": "-458.78"
+    }
+  ],
+  "adjusted_bank_balance": "49658.22",
+  "book_closing": "49679.52",
+  "book_adjustments": [
+    {
+      "type": "bank_fee",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "MONTHLY SERVICE CHARGE",
+      "amount": "-30.99"
+    },
+    {
+      "type": "interest",
+      "date": "2026-09-30",
+      "ref": "",
+      "description": "INTEREST PAID",
+      "amount": "9.69"
+    }
+  ],
+  "adjusted_book_balance": "49658.22",
+  "difference": "0.00"
+}

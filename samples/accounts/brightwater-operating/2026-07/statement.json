@@ -1,0 +1,30 @@
+{
+  "account": "Brightwater Landscaping Inc, Northfield National Bank checking ...7718",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "bank_opening": "16422.90",
+  "bank_closing": "10728.97",
+  "book_opening": "15893.94",
+  "book_closing": "3574.28",
+  "opening_outstanding": [
+    {
+      "date": "2026-06-26",
+      "ref": "3301",
+      "description": "Check 3301 Valley Propane Co",
+      "amount": "-1754.85"
+    },
+    {
+      "date": "2026-06-29",
+      "ref": "3302",
+      "description": "Check 3302 Hartwell Insurance Agency",
+      "amount": "-1724.43"
+    },
+    {
+      "date": "2026-06-30",
+      "ref": "",
+      "description": "Deposit",
+      "amount": "2950.32"
+    }
+  ],
+  "fictional": true
+}

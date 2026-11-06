@@ -1,0 +1,48 @@
+{
+  "account": "St. Brendan Parish Food Pantry, Harbor Point Savings Bank checking ...6603",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "bank_opening": "12182.27",
+  "bank_closing": "31775.64",
+  "book_opening": "11148.65",
+  "book_closing": "31098.82",
+  "opening_outstanding": [
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "251.17"
+    },
+    {
+      "date": "2026-08-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "966.66"
+    },
+    {
+      "date": "2026-08-29",
+      "ref": "617",
+      "description": "Check 617 Pioneer Equipment Rental",
+      "amount": "-405.86"
+    },
+    {
+      "date": "2026-08-16",
+      "ref": "620",
+      "description": "Check 620 Hartwell Insurance Agency",
+      "amount": "-814.54"
+    },
+    {
+      "date": "2026-08-30",
+      "ref": "621",
+      "description": "Check 621 Sysco Foods",
+      "amount": "-123.93"
+    },
+    {
+      "date": "2026-08-19",
+      "ref": "622",
+      "description": "Check 622 County Treasurer",
+      "amount": "-907.12"
+    }
+  ],
+  "fictional": true
+}

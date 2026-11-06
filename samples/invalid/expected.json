@@ -1,0 +1,47 @@
+[
+  {
+    "folder": "samples/invalid/no-reconciliation",
+    "must_fail": "REC-001",
+    "what_is_wrong": "reconciliation.json missing"
+  },
+  {
+    "folder": "samples/invalid/bank-rows-dont-tie",
+    "must_fail": "REC-002",
+    "what_is_wrong": "a bank row dropped, so the statement no longer ties to its closing balance"
+  },
+  {
+    "folder": "samples/invalid/book-rows-dont-tie",
+    "must_fail": "REC-003",
+    "what_is_wrong": "the book closing balance typed wrong"
+  },
+  {
+    "folder": "samples/invalid/outstanding-check-left-off",
+    "must_fail": "REC-004",
+    "what_is_wrong": "an outstanding check missing from the list"
+  },
+  {
+    "folder": "samples/invalid/deposit-listed-twice",
+    "must_fail": "REC-005",
+    "what_is_wrong": "a deposit listed in transit that isn't"
+  },
+  {
+    "folder": "samples/invalid/fee-not-adjusted",
+    "must_fail": "REC-006",
+    "what_is_wrong": "the bank's service charge never booked"
+  },
+  {
+    "folder": "samples/invalid/plugged-difference",
+    "must_fail": "REC-007",
+    "what_is_wrong": "a made-up adjustment to force the reconciliation to zero"
+  },
+  {
+    "folder": "samples/invalid/stale-check",
+    "must_fail": "REC-009",
+    "what_is_wrong": "a check outstanding since April (warning)"
+  },
+  {
+    "folder": "samples/invalid/prior-items-missing",
+    "must_fail": "REC-012",
+    "what_is_wrong": "a deposit in transit from last month dropped from the opening items"
+  }
+]

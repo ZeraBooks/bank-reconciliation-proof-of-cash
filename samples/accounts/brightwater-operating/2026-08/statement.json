@@ -1,0 +1,36 @@
+{
+  "account": "Brightwater Landscaping Inc, Northfield National Bank checking ...7718",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-31",
+  "bank_opening": "10728.97",
+  "bank_closing": "24235.00",
+  "book_opening": "2161.50",
+  "book_closing": "20522.31",
+  "opening_outstanding": [
+    {
+      "date": "2026-07-31",
+      "ref": "",
+      "description": "Branch Deposit",
+      "amount": "2987.30"
+    },
+    {
+      "date": "2026-07-19",
+      "ref": "3303",
+      "description": "Check 3303 Grainger",
+      "amount": "-4486.28"
+    },
+    {
+      "date": "2026-07-12",
+      "ref": "3305",
+      "description": "Check 3305 Riverbend Printing",
+      "amount": "-2741.32"
+    },
+    {
+      "date": "2026-07-24",
+      "ref": "3308",
+      "description": "Check 3308 Pioneer Equipment Rental",
+      "amount": "-4327.17"
+    }
+  ],
+  "fictional": true
+}
