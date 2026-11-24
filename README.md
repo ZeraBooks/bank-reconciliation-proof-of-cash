@@ -105,7 +105,7 @@ Exit code 0 means reconciled, 1 means errors, 2 means a file couldn't be read.
 
 ## Where ZeraBooks fits
 
-Doing this by hand means ticking items off two lists every month. [ZeraBooks](https://www.zerabooks.com/bank-reconciliation-software) does the matching as each statement is uploaded: the statement has to add up on its own, follow the previous month's closing balance and agree with the [general ledger](https://www.zerabooks.com/general-ledger-software). When a month doesn't tie, AI re-reads the statement and proposes the fix for you to apply. One plan, $79 a month billed annually or $149 month to month, with a 7-day trial.
+Doing this by hand means ticking items off two lists every month. [ZeraBooks](https://www.zerabooks.com/bank-reconciliation-software) does the matching as each statement is uploaded: the statement has to add up on its own, follow the previous month's closing balance and agree with the general ledger. When a month doesn't tie, AI re-reads the statement and proposes the fix for you to apply. One plan, $79 a month billed annually or $149 month to month, with a 7-day trial.
 
 ## Tests
 
